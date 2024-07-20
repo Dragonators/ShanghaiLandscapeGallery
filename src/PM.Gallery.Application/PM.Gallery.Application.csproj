@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PM.Gallery.Domain\PM.Gallery.Domain.csproj"/>
+        <ProjectReference Include="..\PM.Gallery.Infrastructure\PM.Gallery.Infrastructure.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Mapster" Version="7.4.1-pre01"/>
+        <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Properties\"/>
+        <Folder Include="SeedData\imgs\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Properties\launchSettings.json"/>
+        <None Update="SeedData\imgs\caption.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\imgs\上海博物馆.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\imgs\上海环球金融中心-上海塔.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\imgs\东方明珠.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\imgs\南京路.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\imgs\外滩.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\imgs\朱家角古镇.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\imgs\迪士尼乐园.jpg">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>
