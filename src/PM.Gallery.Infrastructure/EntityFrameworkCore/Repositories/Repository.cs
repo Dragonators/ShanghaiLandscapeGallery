@@ -110,4 +110,11 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         return _dbContext.Set<TEntity>().Where(predicate).Any();
     }
+
+    public int Count(Expression<Func<TEntity, bool>>? predicate = null)
+    {
+        return predicate is null ? 
+            _dbContext.Set<TEntity>().Count() 
+            : _dbContext.Set<TEntity>().Where(predicate).Count();
+    }
 }

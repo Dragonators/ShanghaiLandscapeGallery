@@ -242,3 +242,751 @@ System.InvalidOperationException: No suitable constructor was found for entity t
 2024-07-21 12:40:44.381 +08:00 [INF] Successfully streamed images
 2024-07-21 12:40:52.377 +08:00 [INF] Successfully retrieved image for ImageId: "2131bffc-2a66-47e7-acc6-c1766284788f"
 2024-07-21 12:40:57.154 +08:00 [INF] Successfully retrieved image for ImageId: "5d06d375-b5a5-434e-b8f3-2781ffa2d395"
+2024-07-21 12:56:56.502 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 12:56:56.541 +08:00 [INF] Successfully streamed images
+2024-07-21 12:57:38.104 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 12:57:38.137 +08:00 [INF] Successfully streamed images
+2024-07-21 12:58:36.917 +08:00 [INF] Successfully retrieved image for ImageId: "5d06d375-b5a5-434e-b8f3-2781ffa2d395"
+2024-07-21 12:59:26.929 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 12:59:26.983 +08:00 [INF] Successfully streamed images
+2024-07-21 13:01:54.099 +08:00 [INF] Successfully retrieved image for ImageId: "5d06d375-b5a5-434e-b8f3-2781ffa2d395"
+2024-07-21 13:02:00.359 +08:00 [INF] Successfully retrieved image for ImageId: "e5dcbd3f-e00d-4ace-b69f-f2ba9d441f8a"
+2024-07-21 13:46:41.584 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 13:46:41.917 +08:00 [INF] Successfully streamed images
+2024-07-21 13:52:13.439 +08:00 [INF] Successfully retrieved image for ImageId: "b8aea8a9-e694-4e60-b787-44a69d18ee80"
+2024-07-21 13:54:35.385 +08:00 [INF] Successfully retrieved image for ImageId: "2131bffc-2a66-47e7-acc6-c1766284788f"
+2024-07-21 15:01:09.313 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:01:09.425 +08:00 [INF] Successfully streamed images
+2024-07-21 15:09:49.813 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:09:49.909 +08:00 [INF] Successfully streamed images
+2024-07-21 15:11:45.552 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:11:45.616 +08:00 [INF] Successfully streamed images
+2024-07-21 15:11:49.088 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:11:49.131 +08:00 [INF] Successfully streamed images
+2024-07-21 15:12:02.479 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:12:02.541 +08:00 [INF] Successfully streamed images
+2024-07-21 15:12:52.259 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:12:52.321 +08:00 [INF] Successfully streamed images
+2024-07-21 15:14:35.373 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:14:35.473 +08:00 [INF] Successfully streamed images
+2024-07-21 15:15:29.719 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:15:29.755 +08:00 [INF] Successfully streamed images
+2024-07-21 15:15:35.694 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:15:35.733 +08:00 [INF] Successfully streamed images
+2024-07-21 15:15:40.717 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:15:40.767 +08:00 [INF] Successfully streamed images
+2024-07-21 15:15:50.057 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:15:50.089 +08:00 [INF] Successfully streamed images
+2024-07-21 15:15:54.726 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:15:54.776 +08:00 [INF] Successfully streamed images
+2024-07-21 15:16:14.916 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:16:15.205 +08:00 [INF] Successfully streamed images
+2024-07-21 15:16:21.961 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:16:22.028 +08:00 [INF] Successfully streamed images
+2024-07-21 15:17:09.443 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:17:09.515 +08:00 [INF] Successfully streamed images
+2024-07-21 15:17:25.196 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:17:25.289 +08:00 [INF] Successfully streamed images
+2024-07-21 15:17:37.345 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:17:37.436 +08:00 [INF] Successfully streamed images
+2024-07-21 15:17:43.755 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:17:43.785 +08:00 [INF] Successfully streamed images
+2024-07-21 15:19:32.564 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:19:32.604 +08:00 [INF] Successfully streamed images
+2024-07-21 15:19:36.383 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:19:36.471 +08:00 [INF] Successfully streamed images
+2024-07-21 15:20:57.792 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:20:57.858 +08:00 [INF] Successfully streamed images
+2024-07-21 15:21:08.829 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:21:08.925 +08:00 [INF] Successfully streamed images
+2024-07-21 15:21:26.237 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:21:26.345 +08:00 [INF] Successfully streamed images
+2024-07-21 15:21:59.500 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 15:21:59.553 +08:00 [INF] Successfully streamed images
+2024-07-21 16:06:07.926 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 16:06:07.985 +08:00 [INF] Successfully streamed images
+2024-07-21 16:29:24.072 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 16:29:24.132 +08:00 [INF] Successfully streamed images
+2024-07-21 16:50:46.595 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 16:50:46.652 +08:00 [INF] Successfully streamed images
+2024-07-21 17:05:04.732 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:05:04.784 +08:00 [INF] Successfully streamed images
+2024-07-21 17:08:11.230 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:08:11.260 +08:00 [INF] Successfully streamed images
+2024-07-21 17:14:15.099 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:14:15.185 +08:00 [INF] Successfully streamed images
+2024-07-21 17:16:36.439 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:16:36.466 +08:00 [INF] Successfully streamed images
+2024-07-21 17:21:09.250 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:21:09.288 +08:00 [INF] Successfully streamed images
+2024-07-21 17:26:42.441 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:26:42.514 +08:00 [INF] Successfully streamed images
+2024-07-21 17:35:06.637 +08:00 [INF] Successfully retrieved image for ImageId: "2131bffc-2a66-47e7-acc6-c1766284788f"
+2024-07-21 17:35:10.095 +08:00 [INF] Successfully retrieved image for ImageId: "2131bffc-2a66-47e7-acc6-c1766284788f"
+2024-07-21 17:35:13.276 +08:00 [INF] Successfully retrieved image for ImageId: "2131bffc-2a66-47e7-acc6-c1766284788f"
+2024-07-21 17:42:52.473 +08:00 [INF] Successfully retrieved image for ImageId: "a955f1fc-7b6e-49b2-8b68-6b00c14e3af5"
+2024-07-21 17:42:55.047 +08:00 [INF] Successfully retrieved image for ImageId: "b8aea8a9-e694-4e60-b787-44a69d18ee80"
+2024-07-21 17:42:57.306 +08:00 [INF] Successfully retrieved image for ImageId: "b637e856-0fbf-4895-bdbe-cbdd92f1a415"
+2024-07-21 17:42:59.751 +08:00 [INF] Successfully retrieved image for ImageId: "540fb44c-71ee-41c7-a745-080f40cad844"
+2024-07-21 17:51:42.552 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:51:42.605 +08:00 [INF] Successfully streamed images
+2024-07-21 17:51:46.082 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:51:46.119 +08:00 [INF] Successfully streamed images
+2024-07-21 17:55:22.466 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 17:55:22.486 +08:00 [INF] Successfully find images
+2024-07-21 17:59:59.762 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 17:59:59.809 +08:00 [INF] Successfully streamed images
+2024-07-21 18:00:19.389 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 18:00:19.451 +08:00 [INF] Successfully streamed images
+2024-07-21 18:03:52.190 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:03:52.202 +08:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-07-21 18:03:52.204 +08:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-07-21 18:03:52.222 +08:00 [INF] Successfully find images
+2024-07-21 18:05:06.519 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 18:05:06.547 +08:00 [INF] Successfully streamed images
+2024-07-21 18:08:50.270 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 18:08:50.314 +08:00 [INF] Successfully streamed images
+2024-07-21 18:14:30.618 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:14:30.658 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 63
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:32:06.055 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:32:07.031 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 63
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:33:44.660 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:33:44.697 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext()
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:34:14.417 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:34:14.428 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext()
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:34:22.917 +08:00 [INF] Starting GetImagesStreamAsync
+2024-07-21 18:34:23.411 +08:00 [INF] Successfully streamed images
+2024-07-21 18:34:57.949 +08:00 [INF] Successfully retrieved image for ImageId: "2131bffc-2a66-47e7-acc6-c1766284788f"
+2024-07-21 18:35:34.562 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:35:34.564 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext()
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:37:26.622 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:37:26.626 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext()
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:37:42.980 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:37:43.889 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 63
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:44:14.308 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:44:15.561 +08:00 [INF] Successfully find images
+2024-07-21 18:47:06.764 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:47:07.768 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 65
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:47:41.539 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:47:42.179 +08:00 [INF] Successfully find images
+2024-07-21 18:48:06.968 +08:00 [INF] Successfully retrieved image for ImageId: "4ac4a780-cc9d-4da1-8b32-c3bfc2564636"
+2024-07-21 18:48:31.233 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:48:31.237 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 65
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:48:47.543 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:48:49.120 +08:00 [INF] Successfully find images
+2024-07-21 18:50:50.186 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:50:51.143 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 65
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:54:36.242 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:54:36.278 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 65
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+2024-07-21 18:54:55.628 +08:00 [INF] Starting FindImagesStreamAsync
+2024-07-21 18:54:56.622 +08:00 [ERR] Error find images as stream
+System.InvalidOperationException: The LINQ expression 'tag => ShapedQueryExpression: 
+    QueryExpression: 
+        Projection Mapping:
+            EmptyProjectionMember -> EntityProjectionExpression: Tag
+        SELECT 1
+        FROM Tags AS t
+    ShaperExpression: EntityShaperExpression: 
+            PM.Gallery.Domain.ValueObjects.Tag
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+
+    .Where(namelessParameter{0} => object.Equals(
+        objA: (object)EF.Property<Guid>(EntityShaperExpression: 
+            PM.Gallery.Domain.Entities.Image
+            ValueBufferExpression: 
+                ProjectionBindingExpression: EmptyProjectionMember
+            IsNullable: False
+        , "Id"), 
+        objB: (object)EF.Property<Guid>(namelessParameter{0}, "ImageId")))
+    .AsQueryable()
+    .Any(o => o.Name == tag)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitLambda[T](Expression`1 lambdaExpression)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Pomelo.EntityFrameworkCore.MySql.Query.ExpressionVisitors.Internal.MySqlSqlTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+MoveNext() in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.Application\Services\ImageService.Main.cs:line 65
+   at PM.Gallery.Application.Services.ImageService.FindImagesStreamAsync(ImageQueryDto imageQueryDto)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76
+   at PM.Gallery.HttpApi.Controllers.ImageController.SearchImagesStreamAsync(ImageQueryDto imageQueryDto) in H:\.NET_Vue\ShanghaiLandscapeGallery-Backend\src\PM.Gallery.HttpApi\Controllers\ImageController.cs:line 76

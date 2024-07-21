@@ -17,4 +17,5 @@ public interface IRepository<TEntity> where TEntity : class
     Task DeleteRangeAsync(IEnumerable<TEntity> entities);
     Task DeleteRangeAsync(IEnumerable<Guid> ids);
     bool Contains(Expression<Func<TEntity, bool>> predicate);
+    int Count(Expression<Func<TEntity, bool>>? predicate = null);
 }

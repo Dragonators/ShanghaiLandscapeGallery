@@ -89,6 +89,13 @@ namespace PM.Gallery.HttpApi.Controllers
             }
         }
 
+        [HttpGet("count")]
+        public IActionResult GetImagesCountAsync()
+        {
+            return Ok(_imageService.CountImages());
+        }
+        
+
         [HttpDelete("{imageId:guid}")]
         public async Task<IActionResult> DeleteImageAsync(Guid imageId)
         {

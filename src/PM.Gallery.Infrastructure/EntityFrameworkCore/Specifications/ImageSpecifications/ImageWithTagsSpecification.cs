@@ -9,6 +9,12 @@ public class ImageWithTagsSpecification : BaseSpecification<Image>
     public ImageWithTagsSpecification(IEnumerable<string> tags)
         : base((int)OperationType.Where)
     {
-        AddBoolExpression(i => tags.All(tag => i.Tags.Any(t => t.Name == tag)));
+        foreach (var tag in tags)
+        {
+            AddBoolExpression(i => i.Tags.Any(t => t.Name == tag));
+        }
+
+        // AddBoolExpression(i => tags.All(tag => i.Tags.Any(t => t.Name == tag)));
+        // AddBoolExpression(i => i.Tags.Any(t => t.Name == tags.First()));
     }
 }

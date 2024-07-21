@@ -8,6 +8,7 @@ public interface IImageService
     IAsyncEnumerable<ImageDto> GetImagesStreamAsync();
     IAsyncEnumerable<ImageDto> FindImagesStreamAsync(ImageQueryDto imageQueryDto);
     Task<IEnumerable<ImageDto>> FindImagesAsync(ImageQueryDto imageQueryDto);
+    int CountImages();
     Task AddImageAsync(ImageDto imageDto);
     Task UpdateImageAsync(ImageUpdateDto imageUpdateDto, Guid id);
     Task DeleteImageAsync(Guid id);

@@ -9,6 +9,7 @@ public static class StaticQueryStrategies
     public static List<IQueryStrategy<Image, ImageQueryDto>> Strategies { get; } =
         new()
         {
+            // new IncludesStrategy(),
             new FilterByTagsStrategy(),
             new FilterByTitleStrategy(),
             new OrderStrategy(),
