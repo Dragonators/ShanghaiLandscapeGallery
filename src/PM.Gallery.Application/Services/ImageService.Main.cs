@@ -53,9 +53,8 @@ public partial class ImageService : IImageService
     public async IAsyncEnumerable<ImageDto> FindImagesStreamAsync(ImageQueryDto imageQueryDto)
     {
         var finder = _repository.UseSpecification()
-            .Apply(new ImageIncludeAllSpecification())
-            .AsNoTracking()
-            .AsSplitQuery();
+            // .Apply(new ImageIncludeAllSpecification())
+            .AsNoTracking();
 
         foreach (var strategy in StaticQueryStrategies.Strategies)
         {
@@ -71,9 +70,8 @@ public partial class ImageService : IImageService
     public async Task<IEnumerable<ImageDto>> FindImagesAsync(ImageQueryDto imageQueryDto)
     {
         var finder = _repository.UseSpecification()
-            .Apply(new ImageIncludeAllSpecification())
-            .AsNoTracking()
-            .AsSplitQuery();
+            // .Apply(new ImageIncludeAllSpecification())
+            .AsNoTracking();
 
         foreach (var strategy in StaticQueryStrategies.Strategies)
         {

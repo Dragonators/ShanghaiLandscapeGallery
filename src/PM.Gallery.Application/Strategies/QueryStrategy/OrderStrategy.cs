@@ -11,11 +11,20 @@ public class OrderStrategy : IQueryStrategy<Image, ImageQueryDto>
 {
     public void Apply(ISpecificationTools<Image> finder, ImageQueryDto dto)
     {
-        if (dto.SortOptions is null) return;
+        if (dto.SortOptions is null)
+        {
+            finder.Apply(new ImageOrderByUpdatedTimeSpecification(true, false));
+            return;
+        }
 
         var enumerator = dto.SortOptions.GetEnumerator();
 
-        if (!enumerator.MoveNext()) return;
+        if (!enumerator.MoveNext())
+        {
+            finder.Apply(new ImageOrderByUpdatedTimeSpecification(true, false));
+            return;
+        }
+        
         ApplyByKey(finder, enumerator.Current, false);
         while (enumerator.MoveNext())
         {
