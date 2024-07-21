@@ -116,19 +116,109 @@ namespace PM.Gallery.HttpApi.Controllers
         }
 
         [HttpPut("{imageId:guid}")]
-        public async Task<IActionResult> UpdateImageAsync([FromBody] ImageUpdateDto imageUpdateDto, Guid imageId)
+        // public async Task<IActionResult> UpdateImageAsync([FromBody] ImageUpdateDto imageUpdateDto, Guid imageId)
+        // {
+        //     _logger.LogInformation("Starting UpdateImageAsync");
+        //
+        //     try
+        //     {
+        //         await _imageService.UpdateImageAsync(imageUpdateDto, imageId);
+        //         _logger.LogInformation("Successfully update image with id {imageId}", imageId);
+        //         return Ok();
+        //     }
+        //     catch(Exception ex)
+        //     {
+        //         _logger.LogError(ex, "Error update image with id {imageId}", imageId);
+        //         return StatusCode(StatusCodes.Status500InternalServerError, new { ex.Message });
+        //     }
+        // }
+        public async Task<IActionResult> UpdateImageAsync(Guid imageId, [FromForm] DateTime lastUpdatedAt, [FromForm] IFormFile? file = null, [FromForm] string? title = null)
         {
-            _logger.LogInformation("Starting UpdateImageAsync");
-
+            byte[] fileBytes;
+            if ((file == null || file.Length == 0) && string.IsNullOrEmpty(title))
+            {
+                return BadRequest("No information uploaded.");
+            }
+            else if (file == null || file.Length == 0)
+            {
+                var image = await _imageService.GetImageByIdAsync(imageId);
+                fileBytes = image.ImageData;
+            }
+            else if (string.IsNullOrEmpty(title))
+            {
+                var image = await _imageService.GetImageByIdAsync(imageId);
+                title = image.Title;
+                using (var memoryStream = new MemoryStream())
+                {
+                    await file.CopyToAsync(memoryStream);
+                    fileBytes = memoryStream.ToArray();
+                }
+            }
+            else
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    await file.CopyToAsync(memoryStream);
+                    fileBytes = memoryStream.ToArray();
+                }
+            }
+            
+            var imageUpdateDto = new ImageUpdateDto()
+            {
+                Title = title,
+                Id = imageId,
+                ImageData = fileBytes,
+                LastUpdatedAt = lastUpdatedAt
+            };
+                
+            _logger.LogInformation("Starting AddImageAsync");
+            
             try
             {
-                await _imageService.UpdateImageAsync(imageUpdateDto, imageId);
-                _logger.LogInformation("Successfully update image with id {imageId}", imageId);
+                await _imageService.UpdateImageAsync(imageUpdateDto,imageId);
+                _logger.LogInformation("Successfully add image");
                 return Ok();
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Error update image with id {imageId}", imageId);
+                _logger.LogError(ex, "Error add image");
+                return StatusCode(StatusCodes.Status500InternalServerError, new { ex.Message });
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddImageAsync([FromForm] IFormFile file, [FromForm] string title, [FromForm] DateTime createdAt)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("No file uploaded.");
+            }
+            
+            byte[] fileBytes;
+            using (var memoryStream = new MemoryStream())
+            {
+                await file.CopyToAsync(memoryStream);
+                fileBytes = memoryStream.ToArray();
+            }
+            var imageUploadDto = new ImageDto
+            {
+                Title = title,
+                Id = Guid.NewGuid(),
+                ImageData = fileBytes,
+                CreatedAt = createdAt
+            };
+                
+            _logger.LogInformation("Starting AddImageAsync");
+            
+            try
+            {
+                await _imageService.AddImageAsync(imageUploadDto);
+                _logger.LogInformation("Successfully add image");
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Error add image");
                 return StatusCode(StatusCodes.Status500InternalServerError, new { ex.Message });
             }
         }

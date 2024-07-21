@@ -39,7 +39,8 @@ public static class MapsterConfig
             .Map(dest => dest.Ratings, src => src.Ratings)
             .Map(dest => dest.Comments, src => src.Comments)
             .Map(dest => dest.Tags, src => src.Tags)
-            .IgnoreNullValues(true);
+            .IgnoreNullValues(true)
+            .IgnoreNonMapped(true);
 
         TypeAdapterConfig<Image, ImageDto>.NewConfig()
             .Map(dest => dest.Id, src => src.Id)
@@ -49,9 +50,11 @@ public static class MapsterConfig
             .Map(dest => dest.LastUpdatedAt, src => src.LastUpdatedAt);
 
         TypeAdapterConfig<ImageDto, Image>.NewConfig()
-            .ConstructUsing(src => new Image(src.Id, src.Title, src.ImageData, src.CreatedAt));
+            .ConstructUsing(src => new Image(src.Id, src.Title, src.ImageData, src.CreatedAt))
+            .IgnoreNonMapped(true);
 
         TypeAdapterConfig<ImageUpdateDto, Image>.NewConfig()
-            .ConstructUsing(src => new Image(src.Id, src.Title, src.ImageData, src.LastUpdatedAt));
+            .ConstructUsing(src => new Image(src.Id, src.Title, src.ImageData, src.LastUpdatedAt))
+            .IgnoreNonMapped(true);
     }
 }

@@ -32,7 +32,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         corsPolicyBuilder =>
         {
-            corsPolicyBuilder.WithOrigins("https://localhost:9001") // 允许特定端口访问
+            corsPolicyBuilder.WithOrigins("https://localhost:9001") 
+                .WithOrigins("http://localhost:9001") // 允许特定端口访问
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
