@@ -86,9 +86,9 @@ public partial class ImageService : IImageService
         await _repository.AddAsync(image);
     }
 
-    public async Task UpdateImageAsync(ImageUpdateDto imageUpdateDto)
+    public async Task UpdateImageAsync(ImageUpdateDto imageUpdateDto, Guid id)
     {
-        var image = await ImageById(imageUpdateDto.Id);
+        var image = await ImageById(id);
         if (image != null)
         {
             image.RenewImage(imageUpdateDto.Adapt<Image>());

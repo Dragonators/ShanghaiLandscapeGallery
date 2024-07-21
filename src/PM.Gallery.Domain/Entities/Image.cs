@@ -11,7 +11,7 @@ public class Image : BaseModel<Guid>
     public virtual ICollection<Comment> Comments { get; }
     public virtual ICollection<Tag> Tags { get; }
 
-    public Image(Guid id, string title, byte[] imageData, DateTime createdAt) : base(createdAt,id)
+    public Image(Guid id, string title, byte[] imageData, DateTime createdAt) : base(createdAt, id)
     {
         Title = title;
         ImageData = imageData;

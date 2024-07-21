@@ -28,6 +28,7 @@ public static class MapsterConfig
             .Map(dest => dest.Title, src => src.Title)
             .Map(dest => dest.ImageData, src => src.ImageData)
             .Map(dest => dest.CreatedAt, src => src.CreatedAt)
+            .Map(dest => dest.LastUpdatedAt, src => src.LastUpdatedAt)
             .Map(dest => dest.Ratings, src => src.Ratings)
             .Map(dest => dest.Comments, src => src.Comments)
             .Map(dest => dest.Tags, src => src.Tags)
@@ -44,7 +45,8 @@ public static class MapsterConfig
             .Map(dest => dest.Id, src => src.Id)
             .Map(dest => dest.Title, src => src.Title)
             .Map(dest => dest.ImageData, src => src.ImageData)
-            .Map(dest => dest.CreatedAt, src => src.CreatedAt);
+            .Map(dest => dest.CreatedAt, src => src.CreatedAt)
+            .Map(dest => dest.LastUpdatedAt, src => src.LastUpdatedAt);
 
         TypeAdapterConfig<ImageDto, Image>.NewConfig()
             .ConstructUsing(src => new Image(src.Id, src.Title, src.ImageData, src.CreatedAt));

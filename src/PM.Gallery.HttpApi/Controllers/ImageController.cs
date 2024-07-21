@@ -64,32 +64,101 @@ namespace PM.Gallery.HttpApi.Controllers
             }
         }
 
-        // [HttpGet("search")]
-        // public async Task<IActionResult> SearchImagesStreamAsync([FromQuery] ImageQueryDto imageQueryDto)
-        // {
-        //     var image = await _imageService.FindImagesStreamAsync(imageQueryDto);
-        //     return Ok(image);
-        // }
+        [HttpGet("search")]
+        public async Task SearchImagesStreamAsync([FromQuery] ImageQueryDto imageQueryDto)
+        {
+            _logger.LogInformation("Starting FindImagesStreamAsync");
+
+            Response.Headers.Add("Content-Type", "text/event-stream");
+            Response.Headers.Add("Cache-Control", "no-cache");
+            try
+            {
+                await foreach (var image in _imageService.FindImagesStreamAsync(imageQueryDto))
+                {
+                    await Response.WriteAsync($"data: {JsonSerializer.Serialize(image)}\n\n");
+                    await Response.Body.FlushAsync();
+                }
+
+                _logger.LogInformation("Successfully find images");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error find images as stream");
+                Response.StatusCode = StatusCodes.Status500InternalServerError;
+                await Response.WriteAsync($"data: {{\"error\": \"{ex.Message}\"}}\n\n");
+            }
+        }
 
         [HttpDelete("{imageId:guid}")]
         public async Task<IActionResult> DeleteImageAsync(Guid imageId)
         {
-            await _imageService.DeleteImageAsync(imageId);
-            return Ok();
+            _logger.LogInformation("Starting DeleteImageAsync");
+            
+            try
+            {
+                await _imageService.DeleteImageAsync(imageId);
+                _logger.LogInformation("Successfully delete image with id {imageId}", imageId);
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Error delete image with id {imageId}", imageId);
+                return StatusCode(StatusCodes.Status500InternalServerError, new { ex.Message });
+            }
         }
 
+        [HttpPut("{imageId:guid}")]
+        public async Task<IActionResult> UpdateImageAsync([FromBody] ImageUpdateDto imageUpdateDto, Guid imageId)
+        {
+            _logger.LogInformation("Starting UpdateImageAsync");
+
+            try
+            {
+                await _imageService.UpdateImageAsync(imageUpdateDto, imageId);
+                _logger.LogInformation("Successfully update image with id {imageId}", imageId);
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Error update image with id {imageId}", imageId);
+                return StatusCode(StatusCodes.Status500InternalServerError, new { ex.Message });
+            }
+        }
+        
         [HttpPost("batch")]
         public async Task<IActionResult> AddImagesAsync([FromBody] IEnumerable<ImageDto> imageDtos)
         {
-            await _imageService.AddImagesAsync(imageDtos);
-            return Ok();
-        }
+            _logger.LogInformation("Starting AddImagesAsync");
 
-        [HttpPut("batch")]
-        public async Task<IActionResult> UpdateImageAsync([FromBody] ImageUpdateDto imageUpdateDto)
+            try
+            {
+                await _imageService.AddImagesAsync(imageDtos);
+                _logger.LogInformation("Successfully add images");
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Error add images");
+                return StatusCode(StatusCodes.Status500InternalServerError, new { ex.Message });
+            }
+        }
+        
+        [HttpDelete("batch")]
+        public async Task<IActionResult> DeleteImagesAsync([FromBody] IEnumerable<Guid> ids)
         {
-            await _imageService.UpdateImageAsync(imageUpdateDto);
-            return Ok();
+            _logger.LogInformation("Starting DeleteImagesAsync");
+
+            try
+            {
+                await _imageService.DeleteImagesAsync(ids);
+                _logger.LogInformation("Successfully delete images");
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Error delete images");
+                return StatusCode(StatusCodes.Status500InternalServerError, new { ex.Message });
+            }
         }
     }
 }
