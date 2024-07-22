@@ -25,21 +25,21 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll",
         corsPolicyBuilder =>
         {
-            corsPolicyBuilder.WithOrigins("https://localhost:9001")
+            corsPolicyBuilder.AllowAnyOrigin()
                 .AllowAnyMethod()
-                .AllowAnyHeader()
-                .AllowCredentials();
+                .AllowAnyHeader();
         });
 });
 
 builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", p =>
 {
     p.Authority = "https://localhost:7001";
-    p.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateAudience = false
-    };
-    p.TokenValidationParameters.ValidTypes = new[] { "at+jwt" };
+    p.TokenValidationParameters.ValidateAudience = false;
+    // p.TokenValidationParameters = new TokenValidationParameters
+    // {
+    //     ValidateAudience = false
+    // };
+    // p.TokenValidationParameters.ValidTypes = new[] { "at+jwt" };
 });
 
 builder.Services.AddAuthorization(p =>
@@ -47,7 +47,7 @@ builder.Services.AddAuthorization(p =>
     p.AddPolicy("GalleryPolicy", opt =>
     {
         opt.RequireAuthenticatedUser();
-        //opt.RequireClaim("scope", "gallery_api");
+        opt.RequireClaim("scope", "gallery_api");
         // opt.RequireRole("Admin");
     });
 });
@@ -90,6 +90,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
+app.UseAuthentication();
 
 app.UseAuthorization();
 
