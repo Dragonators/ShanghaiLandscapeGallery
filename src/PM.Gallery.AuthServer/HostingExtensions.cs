@@ -1,4 +1,5 @@
 using Duende.IdentityServer;
+using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PM.Gallery.AuthServer.Data;
@@ -27,6 +28,16 @@ internal static class HostingExtensions
             })
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
+        
+        builder.Services.AddSingleton<ICorsPolicyService>((container) =>
+        {
+            var logger = container.GetRequiredService<ILogger<DefaultCorsPolicyService>>();
+
+            return new DefaultCorsPolicyService(logger) 
+            {
+                AllowAll = true
+            };
+        });
 
         builder.Services
             .AddIdentityServer(options =>
@@ -65,10 +76,12 @@ internal static class HostingExtensions
         {
             app.UseDeveloperExceptionPage();
         }
-
         app.UseStaticFiles();
         app.UseRouting();
+        
         app.UseIdentityServer();
+        
+        app.UseHttpsRedirection();
         app.UseAuthorization();
 
         app.MapRazorPages()

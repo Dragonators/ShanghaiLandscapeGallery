@@ -1,0 +1,178 @@
+﻿@page
+@model PM.Gallery.AuthServer.Pages.Account.Admin.IndexModel
+@using System.Text.Json;
+@namespace PM.Gallery.AuthServer.Pages.Account.Admin
+@if (Model._userManager.Users.Any() == false)
+{
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="alert alert-info">
+				还没有任何注册用户
+			</div>
+		</div>
+	</div>
+}
+else
+{
+	int index = 0;
+	foreach (var user in Model.IdsUsers)
+	{
+		<!-- 创建一个包含导航栏和内容区域的结构 -->
+		<div class="card m-3">
+			<div class="card-header">
+				<!-- 导航栏 -->
+				<ul class="nav nav-tabs card-header-tabs">
+					<!-- 第一个导航项和内容项添加.active类 -->
+					<li class="nav-item">
+						<a class="nav-link active" href="#tab1-@index.ToString()" data-toggle="tab">基本信息</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tab2-@index.ToString()" data-toggle="tab">详细信息</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tab3-@index.ToString()" data-toggle="tab">编辑信息</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tab4-@index.ToString()" data-toggle="tab">修改密码</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tab5-@index.ToString()" data-toggle="tab">更改权限</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 内容区域 -->
+			<div class="card-body tab-content">
+				<!-- 为内容区域添加.fade类，第一个内容项添加.in类 -->
+				<div class="tab-pane show active" id="tab1-@index.ToString()">
+					<div class="row">
+						<div class="col-sm-8 card-title">
+							<strong>用户名：@user.UserName</strong>
+						</div>
+						<div class="col-sm-2">
+							<form asp-page-handler="delete" method="post">
+								<input type="hidden" name="id" value="@user.Id">
+								<button class="btn btn-danger">Delete</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="tab2-@index.ToString()">
+					<h5 class="card-title">详细信息</h5>
+					@{
+						string text = "角色：";
+						foreach (var role in await Model._userManager.GetRolesAsync(user))
+						{
+							text += role + " ";
+						}
+					}
+					<h6 class="card-subtitle mb-2 text-muted text-success">@text</h6>
+					<ul>
+						@foreach (var property in user.GetType().GetProperties())
+						{
+							string propertyName = property.Name;
+							if (property.Name == "NormalizedUserName" ||
+							property.Name == "NormalizedEmail" ||
+							property.Name == "SecurityStamp" ||
+							property.Name == "ConcurrencyStamp" ||
+							property.Name == "SecurityStamp" ||
+							property.Name == "LockoutEnd")
+								continue;
+							object propertyValue = property.GetValue(user);
+							if (propertyValue == null) continue;
+							<li>@propertyName:@propertyValue</li>
+						}
+					</ul>
+				</div>
+				<div class="tab-pane fade" id="tab3-@index.ToString()">
+					<partial name="_ValidationSummary" />
+					<form asp-page="/Account/Admin/Index" asp-page-handler="update" method="post" id="UpdateForm-@index.ToString()" class="row g-3 needs-validation" novalidate>
+						<input type="hidden" asp-for="Input.Id" value=@user.Id />
+						<div class="col-md-3 position-relative">
+							<label for="validationTooltipUsername" class="form-label">Username</label>
+							<div class="input-group">
+								<!-- 使用正则表达式客户端验证用户名 -->
+								<!-- require -->
+								<input type="text" class="form-control" asp-for="Input.Username" id="name-@index.ToString()" value=@user.UserName required pattern="^[\w\-]{2,16}$">
+								<div class="valid-feedback order-1">
+									Looks good!
+								</div>
+								<div class="invalid-feedback order-1">
+									Please provide a correct Username.
+								</div>
+								<div class="input-group-append">
+									<span class="input-group-text">@@</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<button class="btn btn-primary" type="submit">Submit Changes</button>
+						</div>
+					</form>
+				</div>
+				<div class="tab-pane fade" id="tab4-@index.ToString()">
+					<partial name="_ValidationSummary" />
+					<form asp-page="/Account/Admin/Index" asp-page-handler="PwdReset" method="post" id="UpdatePwdForm-@index.ToString()" class="row g-3 needs-validation" novalidate>
+						<input type="hidden" name="id_" value=@user.Id />
+						<div class="col-md-12 position-relative">
+							<label for="validationTooltipPassword1" class="form-label">old Password</label>
+								<!-- 密码只要有一个及以上的任意字符就行 只需require-->
+								<input type="text" class="form-control col-md-3 position-relative" name="old_pwd" id="oldpwd-@index.ToString()" placeholder="old Password" required>
+								<div class="valid-feedback">
+									Looks good!
+								</div>
+								<div class="invalid-feedback">
+									Please provide a correct pwd.
+								</div>
+						</div>
+						<div class="col-md-12 position-relative">
+							<label for="validationTooltipPassword2" class="form-label">new Password</label>
+								<!-- 密码只要有一个及以上的任意字符就行 只需require-->
+							<input type="text" class="form-control col-md-3 position-relative" name="new_pwd" id="newpwd-@index.ToString()" placeholder="new Password" required>
+								<div class="valid-feedback">
+									Looks good!
+								</div>
+								<div class="invalid-feedback">
+									Please provide a correct pwd.
+								</div>
+							<p></p>
+						</div>
+						<div class="col-12">
+							<button class="btn btn-primary" type="submit">Submit Changes</button>
+						</div>
+					</form>
+				</div>
+				<div class="tab-pane fade" id="tab5-@index.ToString()">
+					<partial name="_ValidationSummary" />
+					<form asp-page="/Account/Admin/Index" asp-page-handler="RoleUpdate" method="post" id="UpdateRoleForm-@index.ToString()" class="row g-3 needs-validation" novalidate>
+						<input type="hidden" name="id_" value=@user.Id />
+						<input type="hidden" name="Button" value="" />
+						<div class="col-md-3 position-relative">
+							<label for="validationTooltiprole" class="form-label">Please Select Role</label>
+							<select class="form-control" name="role" id="validationTooltiprole-@index.ToString()" required>
+								<option selected disabled value="">Please select</option>
+								@foreach(var role in Model._roleManager.Roles)
+								{
+									<option value="@(role.Name)">@(role.Name)</option>
+								}
+							</select>
+							<div class="valid-feedback">
+								Looks good!
+							</div>
+							<div class="invalid-feedback">
+								Please select a Role.
+							</div>
+							<p></p>
+						</div>
+					</form>
+					<div class="col-12">
+						<button class="btn btn-success" value="Add">Add Role</button>
+						<button class="btn btn-secondary" value="Remove">Remove Role</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		index++;
+	}
+}
+
+<script src="~/js/Validate.js"></script>

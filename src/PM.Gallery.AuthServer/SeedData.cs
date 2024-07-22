@@ -19,6 +19,10 @@ public class SeedData
             context.Database.Migrate();
 
             var userMgr = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            var roleMgr = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+            EnsureRolesAsync(roleMgr).Wait();
+            
             var alice = userMgr.FindByNameAsync("alice").Result;
             if (alice == null)
             {
@@ -88,5 +92,11 @@ public class SeedData
                 Log.Debug("bob already exists");
             }
         }
+    }
+    private static async Task EnsureRolesAsync(RoleManager<IdentityRole> roleManager)
+    {
+        var alreadyExists = await roleManager
+            .RoleExistsAsync("Admin");
+        if (!alreadyExists) await roleManager.CreateAsync(new IdentityRole("Admin"));
     }
 }

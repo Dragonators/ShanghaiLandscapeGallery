@@ -16,7 +16,6 @@ public static class Config
         new List<ApiScope>
         {
             new ApiScope(name: "gallery_api", displayName: "Access to Gallery API"),
-            new ApiScope(name: "usermanager_api", displayName: "Access to UserManager API")
         };
 
     public static IEnumerable<Client> Clients =>
@@ -29,13 +28,13 @@ public static class Config
                 AllowedGrantTypes = GrantTypes.Code,
 
                 // where to redirect to after login
-                RedirectUris = { "https://localhost:5002/signin-oidc", "https://localhost:9001/oidc-callback" },
+                RedirectUris = { "https://localhost:5002/signin-oidc", "https://localhost:9001/oidc-callback", "https://127.0.0.1:9001/oidc-callback" },
 
                 // where to redirect to after logout
                 PostLogoutRedirectUris = { "https://localhost:5002/signout-callback-oidc" },
 
-                AllowedCorsOrigins = { "https://localhost:9001" },
-
+                // AllowedCorsOrigins = { "https://localhost:9001","http://localhost:9001" },
+                
                 // AllowOfflineAccess = true,
                 RequireClientSecret = false,
                 RequirePkce = true,
@@ -46,8 +45,27 @@ public static class Config
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile,
                     "gallery_api",
-                    "usermanager_api",
                 },
+            },
+            new Client
+            {
+                ClientId = "swagger_api",
+                
+                // ClientSecrets =  new List<Secret>()
+                // {
+                //     new Secret("secret".Sha256())
+                // },
+                
+                AllowedGrantTypes = GrantTypes.Implicit,
+                
+                AllowAccessTokensViaBrowser=true,
+                
+                RedirectUris = { "https://localhost:7032/swagger/oauth2-redirect.html"},
+                
+                AllowedScopes =
+                {
+                    "gallery_api"
+                }
             }
         };
 }

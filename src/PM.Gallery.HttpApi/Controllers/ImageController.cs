@@ -1,6 +1,7 @@
 using System.Reflection;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 using PM.Gallery.Application.Dtos;
 using PM.Gallery.Application.IServices;
 
@@ -8,6 +9,7 @@ namespace PM.Gallery.HttpApi.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
+    [Authorize(Policy = "GalleryPolicy")]
     public class ImageController : ControllerBase
     {
         private readonly IImageService _imageService;
@@ -19,6 +21,7 @@ namespace PM.Gallery.HttpApi.Controllers
             _logger = logger;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public async Task GetImagesStreamAsync()
         {
@@ -44,6 +47,7 @@ namespace PM.Gallery.HttpApi.Controllers
             }
         }
 
+        [AllowAnonymous]
         [HttpGet("{imageId:guid}")]
         public async Task<IActionResult> GetImageByIdAsync(Guid imageId)
         {
@@ -65,6 +69,7 @@ namespace PM.Gallery.HttpApi.Controllers
             }
         }
 
+        [AllowAnonymous]
         [HttpGet("search")]
         public async Task SearchImagesStreamAsync([FromQuery] ImageQueryDto imageQueryDto)
         {
@@ -90,6 +95,7 @@ namespace PM.Gallery.HttpApi.Controllers
             }
         }
 
+        [AllowAnonymous]
         [HttpGet("count")]
         public IActionResult GetImagesCountAsync()
         {
